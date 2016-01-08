@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle" >
+   <solid android:color="#ffffff" />
+   <stroke android:width="1dip" android:color="#4fa5d5"/>
+</shape><!-- From: file:/C:/Users/Rachit/Desktop/Android%20Projects/Jeepbot%20Controller/app/src/main/res/drawable-xhdpi/back.xml -->

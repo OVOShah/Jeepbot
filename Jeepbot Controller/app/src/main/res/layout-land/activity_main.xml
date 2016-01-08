@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnLights"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Lights" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonDown"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/up"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:rotation="180"/>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonUp"
+            android:src="@drawable/up"
+            android:rotation="0"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/buttonDown"
+            android:layout_toEndOf="@+id/buttonDown" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonLeft"
+            android:src="@drawable/up"
+            android:rotation="-90"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/buttonRight"
+            android:layout_toStartOf="@+id/buttonRight"
+            android:layout_marginLeft="70dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/buttonRight"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/up"
+            android:rotation="90"/>
+    </LinearLayout>
+
+</LinearLayout> <!-- </RelativeLayout> -->
